@@ -1,0 +1,29 @@
+:root {
+  --komp-background: 0 0% 100%;
+  --komp-foreground: 240 10% 3.9%;
+  --komp-primary-background: 240 5.9% 10%;
+  --komp-primary-foreground: 0 0% 98%;
+  --komp-radius: 0.5rem;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--komp-background);
+  background-color: var(--komp-foreground);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --komp-background: 240 10% 3.9%;
+    --komp-foreground: 0 0% 98%;
+    --komp-primary-background: 0 0% 98%;
+    --komp-primary-foreground: 240 5.9% 10%;
+  }
+}
